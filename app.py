@@ -1,5 +1,4 @@
 import streamlit as st
-import cgi
 import Request, Response
 import Auth, BasicAuth, FunctionAuth
 import Client, StreamContextManager
