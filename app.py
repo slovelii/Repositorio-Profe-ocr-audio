@@ -57,7 +57,8 @@ remove_files(7)
 st.title("🔊 Lector Audible e Intérprete Visual para personas con mutismo selectivo")
 st.subheader("Herramienta de asistencia para la lectura de textos e imágenes mediante voz que no es la propia")
 
-st.image(OCR.jpg)
+image = Image.open('OCR.jpg')
+st.image(image)
 
 st.markdown("""
 Esta aplicación convierte texto impreso o digital en audio. 
